@@ -41,4 +41,5 @@ class Produto{
 
 $produto01 = new Produto('Garrafa', 4.56, 5);
 $produto01->adicionaEstoque(3);
+$produto01->venderProduto(2);
 echo $produto01->verDetalhes();
