@@ -1,6 +1,6 @@
 <?php
 
-class Funcionario{
+class FuncionarioEncp{
 
     private string $nome;
     private string $cargo;
@@ -36,7 +36,7 @@ class Funcionario{
     }
 }
 
-$funcionario = new Funcionario('Oliver', 'Programador Júnior', 3_500.45);
+$funcionario = new FuncionarioEncp('Oliver', 'Programador Júnior', 3_500.45);
 $funcionario->alterarCargo('Programador Senior');
 $funcionario->aumentarSalarioPercentual(2.8);
 echo $funcionario->exibeInfo();
